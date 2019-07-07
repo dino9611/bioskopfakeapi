@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "fikri",
+      "password": "123123"
+    },
+    {
+      "id": 2,
+      "username": "andi",
+      "password": "rahasia"
+    },
+    {
+      "username": "dino",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "dino1",
+      "password": "11",
+      "id": 4
+    },
+    {
+      "username": "dino12",
+      "password": "123",
+      "email": "aldino@ymail.com",
+      "id": 5
+    }
+  ],
+  "movies": [
+    {
+      "title": "ANNA",
+      "genre": "Action",
+      "sinopsis": "Di balik keanggunan Anna Poliatova (Sasha Luss) terdapat sebuah rahasia. Model cantik ini adalah senjata yang sangat mematikan.\n\nKemampuannya membunuh di lapangan menjadikan Anna salah satu agen rahasia yang paling ditakuti.",
+      "playingAt": [
+        9,
+        14,
+        16
+      ],
+      "duration": "118",
+      "sutradara": "Luc Besson",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155866895248609_300x430.jpg",
+      "trailer": "https://www.youtube.com/embed/Z6yTXsCauIc",
+      "id": 4
+    },
+    {
+      "title": "ANNABELLE COMES HOME",
+      "genre": "Horror",
+      "sinopsis": "Pasangan suami istri Ed Warren (Patrick Wilson) dan Lorraine Warren (Vera Farmiga) sepakat untuk meletakkan boneka Annabelle di ruang khusus mereka. Dibalik lemari kaca suci dan mendapat berkat dari seorang pendeta.\n\nNamun malapetaka datang saat Annabelle membangunkan roh-roh jahat yang ada di ruangan itu. Putri pasangan ini, Judy Warren (Mckenna Grace) dan temannya menjadi target teror baru Annabelle dan iblis jahat lainnya.",
+      "playingAt": [
+        16,
+        20,
+        22
+      ],
+      "duration": "106",
+      "sutradara": "Gary Dauberman",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/156015427944307_300x430.jpg",
+      "trailer": "https://www.youtube.com/embed/bCxm7cTpBAs",
+      "id": 6
+    },
+    {
+      "title": "MEN IN BLACK: INTERNATIONAL",
+      "genre": "Action",
+      "sinopsis": "Men in Black selalu melindungi Bumi dari ancaman alam semesta. Dalam petualangan baru ini, Agen H (Chris Hemsworth) dan rekannya agen M (Tessa Thompson) menangani kasus terbesarnya saat spesies maut bernama Hive mengancam organisasi Men in Black.",
+      "playingAt": [
+        9,
+        14,
+        16,
+        20
+      ],
+      "duration": "115",
+      "sutradara": "F. Gary Gray",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/15601528435034_300x430.jpg",
+      "trailer": "https://www.youtube.com/embed/BV-WEb2oxLk",
+      "id": 7
+    },
+    {
+      "title": "DRAGGED ACROSS CONCRETE",
+      "genre": "Action",
+      "sinopsis": "Brett Ridgeman (Mel Gibson) dan Anthony Lurasetti (Vince Vaughn) adalah sepasang polisi yang bertugas di sebuah kota di AS. Keduanya mengalami nasib sial setelah video kejadian yang mereka lakukan tersebar.\n \nMereka menangkap dan memperlakukan tersangka dengan cara kasar, setelah kejadian itu, keduanya mendapat masalah dengan atasannya Letnan Calvert (Don Johnson). \n \nKeduanya mendapat sanksi atas tindakannya. Namun tidak menyurutkan mereka berhenti menyelidiki dunia kriminal demi sebuah kompensasi yang layak.",
+      "playingAt": [
+        9,
+        14,
+        16
+      ],
+      "duration": "119",
+      "sutradara": "S. Craig Zahler",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155814559345862_300x430.jpg",
+      "trailer": "https://www.youtube.com/embed/2p5pdWyyZoc",
+      "id": 8
+    },
+    {
+      "title": "TOY STORY 4",
+      "genre": "Animation",
+      "sinopsis": "Woody, Buzz Lightyear, dan anggota geng lainnya memulai perjalanan dengan Bonnie dan mainan baru bernama Forky.\n\nPerjalanan yang penuh petualangan berubah menjadi reuni yang tak terduga ketika Woody bertemu dengan Bo Peep.\n\nSebuah perjalanan bersama teman-teman lama dan baru mengungkapkan dunia sangatlah besar untuk sebuah mainan.",
+      "playingAt": [
+        9,
+        14,
+        16
+      ],
+      "duration": "100",
+      "sutradara": "Josh Cooley",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155929194959241_300x430.jpg",
+      "trailer": "https://www.youtube.com/embed/wmiIUN-7qhE",
+      "id": 9
+    },
+    {
+      "title": "SPIDER-MAN: FAR FROM HOME",
+      "genre": "Action,",
+      "sinopsis": "Petualangan Peter Parker (Tom Holland) kali ini akan menuju Eropa. Bersama teman-teman sekolahnya MJ (Zendaya), Ned (Jacob Batalon), Betty (Beras Angourie) dan Flash (Tony Revolori). \n\nNamun ancaman datang dalam bentuk yang berbeda, teror mulai menyerang kota-kota di Eropa. Kemunculan sosok Mysterio (Jake Gyllenhaal), Nick Fury (Samuel L. Jackson) dan Happy Hogan (Jon Favreau) akan memberi petunjuk dan tugas baru untuk sang manusia laba-laba itu.",
+      "playingAt": [
+        9,
+        14,
+        16,
+        20,
+        22
+      ],
+      "duration": "129",
+      "trailer": "https://www.youtube.com/embed/Nt9L1jCKGnE",
+      "sutradara": "Jon Watts",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/15610878872315_300x430.jpg",
+      "id": 10
+    }
+  ]
+}
