@@ -3,28 +3,183 @@
     {
       "id": 1,
       "username": "fikri",
-      "password": "123123"
+      "password": "123123",
+      "cart": [],
+      "transaction": []
     },
     {
       "id": 2,
       "username": "andi",
-      "password": "rahasia"
+      "password": "rahasia",
+      "transaction": []
     },
     {
       "username": "dino",
       "password": "123",
-      "id": 3
+      "id": 3,
+      "transaction": [
+        {
+          "title": "ANNA",
+          "qty": 2,
+          "total": 70000
+        },
+        {
+          "title": "ANNA",
+          "qty": 2,
+          "total": 70000
+        }
+      ],
+      "cart": [
+        {
+          "movie": "TOY STORY 4",
+          "booked": [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              9
+            ]
+          ]
+        },
+        {
+          "movie": "DRAGGED ACROSS CONCRETE",
+          "booked": [
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "movie": "ANNA",
+          "booked": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ]
+          ]
+        },
+        {
+          "movie": "MEN IN BLACK: INTERNATIONAL",
+          "booked": [
+            [
+              10,
+              18
+            ],
+            [
+              10,
+              19
+            ]
+          ]
+        }
+      ]
     },
     {
       "username": "dino1",
       "password": "11",
-      "id": 4
+      "id": 4,
+      "transaction": [],
+      "cart": []
     },
     {
       "username": "dino12",
       "password": "123",
       "email": "aldino@ymail.com",
-      "id": 5
+      "id": 5,
+      "transaction": [],
+      "cart": []
+    },
+    {
+      "username": "seto123",
+      "password": "123",
+      "email": "seto123@gmail.com",
+      "id": 6,
+      "transaction": [],
+      "cart": []
+    },
+    {
+      "username": "seto1",
+      "password": "12",
+      "email": "seto1@gmail.com",
+      "id": 7,
+      "transaction": [],
+      "cart": [
+        {
+          "movie": "ANNABELLE COMES HOME",
+          "booked": [
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "movie": "ANNA",
+          "booked": [
+            [
+              8,
+              7
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        {
+          "movie": "ANNA",
+          "booked": [
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "movie": "SPIDER-MAN: FAR FROM HOME",
+          "booked": [
+            [
+              0,
+              11
+            ],
+            [
+              0,
+              12
+            ]
+          ]
+        },
+        {
+          "movie": "ANNA",
+          "booked": [
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
     }
   ],
   "movies": [
@@ -41,7 +196,26 @@
       "sutradara": "Luc Besson",
       "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155866895248609_300x430.jpg",
       "trailer": "https://www.youtube.com/embed/Z6yTXsCauIc",
-      "id": 4
+      "id": 4,
+      "seats": 260,
+      "booked": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ]
+      ]
     },
     {
       "title": "ANNABELLE COMES HOME",
@@ -56,7 +230,9 @@
       "sutradara": "Gary Dauberman",
       "image": "https://media.21cineplex.com/webcontent/gallery/pictures/156015427944307_300x430.jpg",
       "trailer": "https://www.youtube.com/embed/bCxm7cTpBAs",
-      "id": 6
+      "id": 6,
+      "seats": 240,
+      "booked": []
     },
     {
       "title": "MEN IN BLACK: INTERNATIONAL",
@@ -72,7 +248,9 @@
       "sutradara": "F. Gary Gray",
       "image": "https://media.21cineplex.com/webcontent/gallery/pictures/15601528435034_300x430.jpg",
       "trailer": "https://www.youtube.com/embed/BV-WEb2oxLk",
-      "id": 7
+      "id": 7,
+      "seats": 220,
+      "booked": []
     },
     {
       "title": "DRAGGED ACROSS CONCRETE",
@@ -87,7 +265,9 @@
       "sutradara": "S. Craig Zahler",
       "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155814559345862_300x430.jpg",
       "trailer": "https://www.youtube.com/embed/2p5pdWyyZoc",
-      "id": 8
+      "id": 8,
+      "seats": 220,
+      "booked": []
     },
     {
       "title": "TOY STORY 4",
@@ -102,7 +282,9 @@
       "sutradara": "Josh Cooley",
       "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155929194959241_300x430.jpg",
       "trailer": "https://www.youtube.com/embed/wmiIUN-7qhE",
-      "id": 9
+      "id": 9,
+      "seats": 200,
+      "booked": []
     },
     {
       "title": "SPIDER-MAN: FAR FROM HOME",
@@ -119,7 +301,9 @@
       "trailer": "https://www.youtube.com/embed/Nt9L1jCKGnE",
       "sutradara": "Jon Watts",
       "image": "https://media.21cineplex.com/webcontent/gallery/pictures/15610878872315_300x430.jpg",
-      "id": 10
+      "id": 10,
+      "seats": 260,
+      "booked": []
     }
   ]
 }
