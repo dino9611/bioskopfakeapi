@@ -5,89 +5,189 @@
       "username": "fikri",
       "password": "123123",
       "cart": [],
+      "role": "user",
       "transaction": []
     },
     {
       "id": 2,
       "username": "andi",
       "password": "rahasia",
-      "transaction": []
+      "role": "user",
+      "transaction": [],
+      "cart": []
     },
     {
       "username": "dino",
-      "password": "123",
+      "password": "12",
       "id": 3,
+      "role": "user",
       "transaction": [
         {
-          "title": "ANNA",
-          "qty": 2,
-          "total": 70000
+          "tanggal": "12/07/2019",
+          "item": [
+            {
+              "title": "ANNA",
+              "quantity": 2,
+              "totalharga": 70000,
+              "seats": [
+                [
+                  0,
+                  10
+                ],
+                [
+                  0,
+                  11
+                ]
+              ]
+            }
+          ]
         },
         {
-          "title": "ANNA",
-          "qty": 2,
-          "total": 70000
+          "tanggal": "12/07/2019",
+          "item": [
+            {
+              "title": "ANNA",
+              "quantity": 1,
+              "totalharga": 35000,
+              "seats": [
+                [
+                  0,
+                  12
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "tanggal": "12/07/2019",
+          "item": [
+            {
+              "title": "ANNA",
+              "quantity": 1,
+              "totalharga": 35000,
+              "seats": [
+                [
+                  0,
+                  13
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "tanggal": "12/07/2019",
+          "item": [
+            {
+              "title": "ANNA",
+              "quantity": 1,
+              "totalharga": 35000,
+              "seats": [
+                [
+                  0,
+                  14
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "tanggal": "12/07/2019",
+          "item": [
+            {
+              "title": "MEN IN BLACK: INTERNATIONAL",
+              "quantity": 2,
+              "totalharga": 70000,
+              "seats": [
+                [
+                  0,
+                  9
+                ],
+                [
+                  0,
+                  10
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "tanggal": "12/07/2019",
+          "item": [
+            {
+              "title": "DRAGGED ACROSS CONCRETE",
+              "quantity": 2,
+              "totalharga": 70000,
+              "seats": [
+                [
+                  0,
+                  7
+                ],
+                [
+                  0,
+                  8
+                ]
+              ]
+            },
+            {
+              "title": "ANNABELLE COMES HOME",
+              "quantity": 2,
+              "totalharga": 70000,
+              "seats": [
+                [
+                  0,
+                  14
+                ],
+                [
+                  0,
+                  15
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "tanggal": "12/07/2019",
+          "item": [
+            {
+              "title": "ANNABELLE COMES HOME",
+              "quantity": 2,
+              "totalharga": 70000,
+              "seats": [
+                [
+                  0,
+                  11
+                ],
+                [
+                  0,
+                  12
+                ]
+              ]
+            },
+            {
+              "title": "MEN IN BLACK: INTERNATIONAL",
+              "quantity": 2,
+              "totalharga": 70000,
+              "seats": [
+                [
+                  0,
+                  11
+                ],
+                [
+                  0,
+                  12
+                ]
+              ]
+            }
+          ]
         }
       ],
-      "cart": [
-        {
-          "movie": "TOY STORY 4",
-          "booked": [
-            [
-              0,
-              8
-            ],
-            [
-              0,
-              9
-            ]
-          ]
-        },
-        {
-          "movie": "DRAGGED ACROSS CONCRETE",
-          "booked": [
-            [
-              4,
-              7
-            ],
-            [
-              4,
-              8
-            ]
-          ]
-        },
-        {
-          "movie": "ANNA",
-          "booked": [
-            [
-              0,
-              4
-            ],
-            [
-              0,
-              5
-            ]
-          ]
-        },
-        {
-          "movie": "MEN IN BLACK: INTERNATIONAL",
-          "booked": [
-            [
-              10,
-              18
-            ],
-            [
-              10,
-              19
-            ]
-          ]
-        }
-      ]
+      "cart": []
     },
     {
       "username": "dino1",
       "password": "11",
       "id": 4,
+      "role": "user",
       "transaction": [],
       "cart": []
     },
@@ -96,6 +196,7 @@
       "password": "123",
       "email": "aldino@ymail.com",
       "id": 5,
+      "role": "user",
       "transaction": [],
       "cart": []
     },
@@ -104,6 +205,7 @@
       "password": "123",
       "email": "seto123@gmail.com",
       "id": 6,
+      "role": "user",
       "transaction": [],
       "cart": []
     },
@@ -112,74 +214,15 @@
       "password": "12",
       "email": "seto1@gmail.com",
       "id": 7,
+      "role": "user",
       "transaction": [],
-      "cart": [
-        {
-          "movie": "ANNABELLE COMES HOME",
-          "booked": [
-            [
-              8,
-              9
-            ],
-            [
-              8,
-              10
-            ]
-          ]
-        },
-        {
-          "movie": "ANNA",
-          "booked": [
-            [
-              8,
-              7
-            ],
-            [
-              8,
-              8
-            ]
-          ]
-        },
-        {
-          "movie": "ANNA",
-          "booked": [
-            [
-              0,
-              5
-            ],
-            [
-              0,
-              6
-            ]
-          ]
-        },
-        {
-          "movie": "SPIDER-MAN: FAR FROM HOME",
-          "booked": [
-            [
-              0,
-              11
-            ],
-            [
-              0,
-              12
-            ]
-          ]
-        },
-        {
-          "movie": "ANNA",
-          "booked": [
-            [
-              0,
-              5
-            ],
-            [
-              0,
-              6
-            ]
-          ]
-        }
-      ]
+      "cart": []
+    },
+    {
+      "id": 8,
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
     }
   ],
   "movies": [
@@ -201,11 +244,7 @@
       "booked": [
         [
           0,
-          3
-        ],
-        [
-          0,
-          4
+          10
         ],
         [
           0,
@@ -214,6 +253,14 @@
         [
           0,
           12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          14
         ]
       ]
     },
@@ -232,7 +279,24 @@
       "trailer": "https://www.youtube.com/embed/bCxm7cTpBAs",
       "id": 6,
       "seats": 240,
-      "booked": []
+      "booked": [
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ]
+      ]
     },
     {
       "title": "MEN IN BLACK: INTERNATIONAL",
@@ -250,7 +314,24 @@
       "trailer": "https://www.youtube.com/embed/BV-WEb2oxLk",
       "id": 7,
       "seats": 220,
-      "booked": []
+      "booked": [
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ]
+      ]
     },
     {
       "title": "DRAGGED ACROSS CONCRETE",
@@ -267,7 +348,16 @@
       "trailer": "https://www.youtube.com/embed/2p5pdWyyZoc",
       "id": 8,
       "seats": 220,
-      "booked": []
+      "booked": [
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ]
+      ]
     },
     {
       "title": "TOY STORY 4",
